@@ -1,0 +1,16 @@
+{
+    "name": "o2system/hydro",
+    "description": "O2System Framework Web-Restful Application Boilerplate.",
+    "keywords": ["framework", "o2system"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.6.4",
+        "o2system/framework": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
